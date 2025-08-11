@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Plus Jakarta Sans';
+	src: url('./assets/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plus Jakarta Sans';
+	src: url('./assets/fonts/PlusJakartaSans-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plus Jakarta Sans';
+	src: url('./assets/fonts/PlusJakartaSans-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plus Jakarta Sans';
+	src: url('./assets/fonts/PlusJakartaSans-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plus Jakarta Sans';
+	src: url('./assets/fonts/PlusJakartaSans-ExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Plus Jakarta Sans';
+}
+.login-bg {
+	background-image: url(./assets/images/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.gradient-text {
+	background: linear-gradient(94.56deg, #ffffff 79.99%, #21242f 102.65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.login-right-bg {
+	background: linear-gradient(
+		159.02deg,
+		#0f123b 14.25%,
+		#090d2e 56.45%,
+		#020515 86.14%
+	);
+}
+.element {
+	border: 1px solid transparent;
+	border-image-source: linear-gradient(
+		90deg,
+		rgba(224, 225, 226, 0) 0%,
+		#e0e1e2 49.52%,
+		rgba(224, 225, 226, 0.15625) 99.04%
+	);
+	border-image-slice: 1;
+}
+.dashboard-bg {
+	background-image: url(./assets/images/dashboard-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+.dashboard-auth-bg {
+	background: linear-gradient(
+		126.97deg,
+		rgba(6, 11, 40, 0.74) 28.26%,
+		rgba(10, 14, 35, 0.71) 91.2%
+	);
+}
