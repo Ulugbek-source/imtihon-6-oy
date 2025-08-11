@@ -116,7 +116,7 @@ const Projects = () => {
 	return (
 		<div className='px-[16px] text-white w-full'>
 			<div className='dashboard-auth-bg py-[28px] px-[22px] rounded-[20px]'>
-				<div className='flex justify-between mb-[28px]'>
+				<div className='flex justify-between items-center mb-[28px]'>
 					<div>
 						<Heading type={'h2'} classList={'!text-[18px] mb-[5px]'}>
 							Projects
@@ -128,7 +128,7 @@ const Projects = () => {
 					</div>
 					<Button
 						onClick={() => openModal('add')}
-						classList={'!py-[0px] !w-[120px] !text-[11px]'}
+						classList={'!py-[10px] !w-[120px] !text-[11px]'}
 					>
 						Add projects
 					</Button>
