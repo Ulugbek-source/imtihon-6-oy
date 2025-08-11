@@ -57,7 +57,6 @@ const defaultProjects = [
 		creatorId: 5,
 	},
 ]
-console.log(defaultProjects)
 const Projects = () => {
 	const [projects, setProjects] = useState([])
 	const [deleteId, setDeleteId] = useState(null)
@@ -115,7 +114,7 @@ const Projects = () => {
 	}
 
 	return (
-		<div className='p-4 text-white w-full'>
+		<div className='px-[16px] text-white w-full'>
 			<div className='dashboard-auth-bg py-[28px] px-[22px] rounded-[20px]'>
 				<div className='flex justify-between mb-[28px]'>
 					<div>

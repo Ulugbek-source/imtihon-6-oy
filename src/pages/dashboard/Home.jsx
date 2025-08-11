@@ -27,7 +27,7 @@ const Home = () => {
 		}
 	}
 	return (
-		<div className='pb-[37px] pt-[22px] pl-[24px] pr-[40px]'>
+		<div className='pb-[37px] pt-[22px] pl-[24px] pr-[24px]'>
 			<div className=''>
 				<div className='flex items-center justify-between mb-[26px]'>
 					<div>
@@ -58,48 +58,48 @@ const Home = () => {
 			</div>
 			<div>
 				<div className='flex gap-[24px] items-center mb-[23px]'>
-					<img className='w-[240px]' src={Dashboard1} alt='Dashboard image' />
-					<img className='w-[240px]' src={Dashboard2} alt='Dashboard image' />
-					<img className='w-[240px]' src={Dashboard3} alt='Dashboard image' />
-					<img className='w-[240px]' src={Dashboard4} alt='Dashboard image' />
+					<img className='w-[245px]' src={Dashboard1} alt='Dashboard image' />
+					<img className='w-[245px]' src={Dashboard2} alt='Dashboard image' />
+					<img className='w-[245px]' src={Dashboard3} alt='Dashboard image' />
+					<img className='w-[245px]' src={Dashboard4} alt='Dashboard image' />
 				</div>
 				<div className='flex  items-center gap-[24px] mb-[23px]'>
 					<img
-						className='w-[330px] h-[224px]'
+						className='w-[415px] h-[224px]'
 						src={Dashboard5}
 						alt='Dashboard image'
 					/>
 					<img
-						className='w-[330px] h-[224px]'
+						className='w-[415px] h-[224px]'
 						src={Dashboard6}
 						alt='Dashboard image'
 					/>
 					<img
-						className='w-[330px] h-[224px]'
+						className='w-[415px] h-[224px]'
 						src={Dashboard7}
 						alt='Dashboard image'
 					/>
 				</div>
 				<div className='flex  items-center gap-[24px] mb-[23px]'>
 					<img
-						className='w-[505px] h-[224px]'
+						className='w-[600px] h-[224px]'
 						src={Dashboard8}
 						alt='Dashboard image'
 					/>
 					<img
-						className='w-[505px] h-[224px]'
+						className='w-[600px] h-[224px]'
 						src={Dashboard9}
 						alt='Dashboard image'
 					/>
 				</div>
 				<div className='flex  items-center gap-[24px]'>
 					<img
-						className='w-[505px] h-[224px]'
+						className='w-[600px] h-[224px]'
 						src={Dashboard10}
 						alt='Dashboard image'
 					/>
 					<img
-						className='w-[505px] h-[224px]'
+						className='w-[600px] h-[224px]'
 						src={Dashboard11}
 						alt='Dashboard image'
 					/>
